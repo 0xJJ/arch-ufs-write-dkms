@@ -9,9 +9,8 @@ kernel was build with UFS support as a module without write support.
 
 ## License
 
-The files in this repository are either in the public domain or, where this is
-not possible, licensed under the
-[CC0-1.0](https://spdx.org/licenses/CC0-1.0.html) license. While the source
-code of the Linux kernel remains licensed under
+The files in this repository are licensed under
+[0BSD](https://spdx.org/licenses/0BSD.html) license, see LICENSE file. While
+the source code of the Linux kernel remains licensed under
 [GPL-2.0-only](https://spdx.org/licenses/GPL-2.0-only.html).
 
