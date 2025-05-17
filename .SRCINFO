@@ -1,0 +1,24 @@
+pkgbase = ufs-write-dkms
+	pkgdesc = UFS kernel module with write support (DKMS)
+	pkgver = 6.14.6
+	pkgrel = 1
+	url = https://docs.kernel.org/admin-guide/ufs.html
+	arch = x86_64
+	license = GPL-2.0-only
+	depends = dkms
+	source = https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.14.tar.xz
+	source = https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.14.tar.sign
+	source = dkms.conf
+	source = pre_build_check.sh
+	validpgpkeys = ABAF11C65A2970B130ABE3C479BE3E4300411886
+	validpgpkeys = 647F28654894E3BD457199BE38DBBDC86092693E
+	sha256sums = a294b683e7b161bb0517bb32ec7ed1d2ea7603dfbabad135170ed12d00c47670
+	sha256sums = SKIP
+	sha256sums = 49747b2acda3224c842bc13743ea5ab9be0bc0ac96295e51299e42067536c779
+	sha256sums = 3c40612f22e156a19d7af4fe62ffe6bddc69ff3775e91850f730cd70a8316a8d
+	b2sums = 11835719804b406fe281ea1c276a84dc0cbaa808552ddcca9233d3eaeb1c001d0455c7205379b02de8e8db758c1bae6fe7ceb6697e63e3cf9ae7187dc7a9715e
+	b2sums = SKIP
+	b2sums = 857e181fb4e6e08ade6259bc85d071ae6fab50ed99666e660f27f9faf01242a7e914bbeaf6f1a2ff3753c004d42efa1d6c9ccd85f0f61ae610787d788062e645
+	b2sums = e7ef497269c906dce559d7ce6384fd2107e3a727a28f0fe2a2a983ceed18dc4177c29b985b39978c662e94bba0f97f4c56532ce708ebe5fb59762069db38dadb
+
+pkgname = ufs-write-dkms
